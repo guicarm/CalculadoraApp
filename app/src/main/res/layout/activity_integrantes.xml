@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020">
+
+
+    <TextView
+        android:id="@+id/TextViewIntegrantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTEGRANTES"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:background="@color/teal_700"
+        android:textColor="#ffff"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIntegrante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM98552 - Amorgan Mendes Lopes"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIntegrante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM98874 - Guilherme Carneiro de Matos"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIntegrante3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM550371 - Erick Kuwahara da Silva"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIntegrante4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM99585 - Gustavo Godoi da Silva"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIntegrante5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM98502 - Matheus Octaviano Abes de Camargo Silva"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnVoltarIntegrantes"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/button_clear"
+        android:text="Voltar"
+        android:textColor="#ffff"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>

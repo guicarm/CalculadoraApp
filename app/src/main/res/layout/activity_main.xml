@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/imagem_calculadora"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="135dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="48dp"
+        android:textColor="@android:color/black"
+        android:text="INICIAR"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:elevation="4dp"
+        android:background="@drawable/button_clear"/>
+
+    <Button
+        android:id="@+id/btnIntegrantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="48dp"
+        android:textColor="@android:color/black"
+        android:text="INTEGRANTES"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:elevation="4dp"
+        android:background="@drawable/button_clear"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutFooterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>
